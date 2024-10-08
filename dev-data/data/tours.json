@@ -18,7 +18,6 @@
     "name": "The Sea Explorer",
     "duration": 7,
     "maxGroupSize": 15,
-    "difficulty": "medium",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
     "price": 497,
     "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
@@ -74,7 +73,6 @@
     "name": "The Forest Hiker",
     "duration": 5,
     "maxGroupSize": 25,
-    "difficulty": "easy",
     "guides": [
       "5c8a21d02f8fb814b56fa189",
       "5c8a201e2f8fb814b56fa186",
@@ -127,7 +125,6 @@
     "name": "The Snow Adventurer",
     "duration": 4,
     "maxGroupSize": 10,
-    "difficulty": "difficult",
     "guides": [
       "5c8a21d02f8fb814b56fa189",
       "5c8a23412f8fb814b56fa18c",
@@ -173,7 +170,6 @@
     "name": "The Park Camper",
     "duration": 10,
     "maxGroupSize": 15,
-    "difficulty": "medium",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a23412f8fb814b56fa18c",
@@ -233,7 +229,6 @@
     "name": "The City Wanderer",
     "duration": 9,
     "maxGroupSize": 20,
-    "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
     "price": 1197,
     "summary": "Living the life of Wanderlust in the US' most beatiful cities",
@@ -282,7 +277,6 @@
     "name": "The Sports Lover",
     "duration": 14,
     "maxGroupSize": 8,
-    "difficulty": "difficult",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a1f292f8fb814b56fa184",
@@ -398,7 +392,6 @@
     "name": "The Northern Lights",
     "duration": 3,
     "maxGroupSize": 12,
-    "difficulty": "easy",
     "guides": [
       "5c8a21f22f8fb814b56fa18a",
       "5c8a201e2f8fb814b56fa186",
@@ -437,7 +430,6 @@
     "name": "The Wine Taster",
     "duration": 5,
     "maxGroupSize": 8,
-    "difficulty": "easy",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
     "price": 1997,
     "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
