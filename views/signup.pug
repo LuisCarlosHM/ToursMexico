@@ -1,0 +1,27 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='icon' href='./img/icon2.png' type='image/png')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./css/styles.css')
+  script(src='./js/main.js' defer='')
+  title Tlahtolli
+.root
+  section.register
+    .register__image
+      img(src='./img/register.jpg' alt='icono')
+    .register__container
+      .register__form
+        h2.register__title Reg&iacute;strate
+        form.register__form(action='')
+          input.register__input(type='text' placeholder='Nombre')
+          input.register__input(type='text' placeholder='Apellido')
+          input.register__input(type='text' placeholder='Correo electrónico')
+          input.register__input(type='password' placeholder='Contraseña')
+          input.register__input(type='password' placeholder='Confirmar contraseña')
+          button.register__button Registrarse
+        a.register__link(href='/login') &iquest;Ya tienes cuenta? Inicia sesi&oacute;n

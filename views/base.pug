@@ -1,0 +1,25 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='icon' href='./img/icon2.png' type='image/png')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./css/styles.css')
+  script(src='./js/main.js' defer='')
+  title Tlahtolli
+.root
+  section.login
+    .login__image
+      img(src='./img/login.jpg' alt='icono')
+    .login__container
+      .login__form
+        h2.login__title Iniciar sesi&oacute;n
+        form.login__form(action='')
+          input.login__input(type='text' placeholder='Correo electrónico')
+          input.login__input(type='password' placeholder='Contraseña')
+          button.login__button Iniciar sesi&oacute;n
+        a.login__link(href='#') &iquest;Olvidaste tu contrase&ntilde;a?
+        a.login__link(href='/signup') &iquest;No tienes cuenta? Reg&iacute;strate

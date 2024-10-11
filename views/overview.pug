@@ -1,0 +1,108 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='icon' href='./img/icon2.png' type='image/png')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./css/styles.css')
+  script(src='./js/main.js' defer='')
+  title Tlahtolli
+#root
+  .preload
+    .preload__content
+      .preload__icon
+        #loading
+          #loading-center
+            #loading-center-absolute
+              #object_one.object
+              #object_two.object
+              #object_three.object
+              #object_four.object
+              #object_big.object
+      //
+        <div class="preload__text">
+        Cargando...
+        </div>
+  header.navbar
+    img(src='./img/icon2.png')
+    .menu
+      a.menu__item.link(href='/') Inicio
+      a.menu__item.link(href='#tours') Tours
+      a.menu__item.link(href='/login') Iniciar sesi&oacute;n
+  main.container.main
+    .main__text &quot;Caminos antiguos, experiencias eternas&quot;
+    a.main__button(href='#tours') Descubre nuestros tours
+  section#tours.container.section.tours
+    h2.section__title Explora los Tesoros de la Cultura Prehisp&aacute;nica
+    .flex_container
+      .cards
+        .card
+          .card__img
+            img.card__img(src='./img/tour1.jpg')
+          .card__text
+            h3.card__title Coraz&oacute;n del Imperio Azteca
+            p.card__description
+              | Explora la majestuosidad de Tenochtitl&aacute;n, el centro del poder del Imperio Azteca,
+              | donde hoy se encuentra la Ciudad de M&eacute;xico. Este tour te lleva por el Templo Mayor, donde podr&aacute;s admirar los
+              | vestigios de la gran ciudad azteca. Incluye una visita al Museo Nacional de Antropolog&iacute;a
+              | para conocer en profundidad la historia de los aztecas y ver la famosa Piedra del Sol.
+            a.card__button(href='1132') Reserva ahora
+        .card
+          .card__img
+            img.card__img(src='./img/tour2.jpg')
+          .card__text
+            h3.card__title Caminos de los Mayas
+            p.card__description
+              | Sum&eacute;rgete en la impresionante cultura maya con un recorrido por los misteriosos templos
+              | y pir&aacute;mides de Chich&eacute;n Itz&aacute;, una de las Nuevas Siete Maravillas del Mundo.
+              | Este tour incluye una ceremonia tradicional en honor a los dioses mayas,
+              | una visita a un cenote sagrado y la exploraci&oacute;n de la impresionante Pir&aacute;mide de Kukulk&aacute;n.
+            a.card__button(href='#tours') Reserva ahora
+        .card
+          .card__img
+            img.card__img(src='./img/tour3.jpg')
+          .card__text
+            h3.card__title La Ruta Zapoteca
+            p.card__description
+              | Descubre la milenaria civilizaci&oacute;n zapoteca en este recorrido por la zona arqueol&oacute;gica de Monte Alb&aacute;n.
+              | Camina por las antiguas terrazas y templos que fueron construidos en lo alto de una monta&ntilde;a y explora
+              | las tumbas decoradas con joyas y artefactos. Adem&aacute;s, visita el cercano pueblo de Mitla, conocido como
+              | &quot;el lugar de los muertos&quot; y famoso por su arquitectura zapoteca.
+            a.card__button(href='1132') Reserva ahora
+        .card
+          .card__img
+            img.card__img(src='./img/tour4.jpg')
+          .card__text
+            h3.card__title El Legado Tolteca
+            p.card__description
+              | Viaja al centro del poder tolteca en Tula, donde podr&aacute;s admirar las ic&oacute;nicas estatuas
+              | de los Atlantes de Tula, guerreros de piedra que se alzan imponentes. Aprende sobre
+              | la influencia de los toltecas en otras civilizaciones mesoamericanas mientras exploras
+              | este enigm&aacute;tico sitio arqueol&oacute;gico.
+            a.card__button(href='1132') Reserva ahora
+        .card
+          .card__img
+            img.card__img(src='./img/tour5.jpg')
+          .card__text
+            h3.card__title Magia de Taj&iacute;n
+            p.card__description
+              | Explora la enigm&aacute;tica ciudad prehisp&aacute;nica de El Taj&iacute;n, hogar de la cultura totonaca.
+              | Este tour incluye la visita a la Pir&aacute;mide de los Nichos, una estructura fascinante con
+              | m&aacute;s de 365 nichos simb&oacute;licos. Con&eacute;ctate con las tradiciones de los totonacas a trav&eacute;s
+              | de una presentaci&oacute;n de los Voladores de Papantla, una ceremonia ritual que ha perdurado
+              | por siglos.
+            a.card__button(href='1132') Reserva ahora
+        .card
+          .card__img
+            img.card__img(src='./img/tour6.jpg')
+          .card__text
+            h3.card__title Tesoro de los Pur&eacute;pechas
+            p.card__description
+              | Ad&eacute;ntrate en el mundo de los pur&eacute;pechas en este tour por las ruinas de Tzintzuntzan,
+              | la capital de esta poderosa civilizaci&oacute;n. Camina entre las impresionantes yacatas,
+              | templos circulares &uacute;nicos en la arquitectura mesoamericana. El tour tambi&eacute;n incluye
+              | una visita al Lago de P&aacute;tzcuaro, un sitio sagrado para los pur&eacute;pechas, y al m&iacute;stico Isla de Janitzio.
+            a.card__button(href='1132') Reserva ahora
