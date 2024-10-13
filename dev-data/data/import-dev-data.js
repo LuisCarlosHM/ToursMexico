@@ -4,8 +4,9 @@ const Tour = require('../../models/tourModel');
 const User = require('../../models/userModel');
 const Review = require('../../models/reviewModel');
 const mongoose = require('mongoose');
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: '../../config.env' });
 
+console.log(process.env);
 const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.PASSWORD);
 
 mongoose.set('strictQuery', false);
@@ -15,7 +16,7 @@ mongoose
   .then((con) => console.log('DB connection successful!'));
 
 // READ JSON FILE
-const tours = JSON.parse(fs.readFileSync(`${__dirname}/tours.json`, 'utf-8'));
+const tours = JSON.parse(fs.readFileSync(`${__dirname}/toursmex.json`, 'utf-8'));
 const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
 const reviews = JSON.parse(
   fs.readFileSync(`${__dirname}/reviews.json`, 'utf-8'),

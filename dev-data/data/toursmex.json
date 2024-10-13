@@ -1,0 +1,222 @@
+[{
+    "name": "Corazón del Imperio Azteca",
+    "slug": "corazon-imperio-azteca",
+    "duration": 1,
+    "maxGroupSize": 25,
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 200,
+    "price": 1500,
+    "priceDiscount": 1300,
+    "summary": "Explora la majestuosidad de Tenochtitlán, el centro del poder del Imperio Azteca.",
+    "description": "Explora la majestuosidad de Tenochtitlán, el centro del poder del Imperio Azteca, donde hoy se encuentra la Ciudad de México. Este tour te lleva por el Templo Mayor, donde podrás admirar los vestigios de la gran ciudad azteca. Incluye una visita al Museo Nacional de Antropología para conocer en profundidad la historia de los aztecas y ver la famosa Piedra del Sol.",
+    "imageCover": "aztec_empire_cover.jpg",
+    "images": ["aztec_empire_1.jpg", "aztec_empire_2.jpg"],
+    "startDates": ["2024-05-01", "2024-06-15"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-99.1332, 19.4326],
+      "address": "Ciudad de México",
+      "description": "Punto de partida en el Templo Mayor."
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-99.1332, 19.433],
+        "address": "Ciudad de México",
+        "description": "Templo Mayor",
+        "day": 1
+      },
+      {
+        "type": "Point",
+        "coordinates": [-99.1863, 19.426],
+        "address": "Museo Nacional de Antropología",
+        "description": "Museo Nacional de Antropología",
+        "day": 1
+      }
+    ],
+    "guides": []
+  },
+  {
+    "name": "Caminos de los Mayas",
+    "slug": "caminos-de-los-mayas",
+    "duration": 2,
+    "maxGroupSize": 30,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 320,
+    "price": 1800,
+    "priceDiscount": 1600,
+    "summary": "Sumérgete en la impresionante cultura maya con un recorrido por Chichén Itzá.",
+    "description": "Sumérgete en la impresionante cultura maya con un recorrido por los misteriosos templos y pirámides de Chichén Itzá, una de las Nuevas Siete Maravillas del Mundo. Este tour incluye una ceremonia tradicional en honor a los dioses mayas, una visita a un cenote sagrado y la exploración de la impresionante Pirámide de Kukulkán.",
+    "imageCover": "mayan_paths_cover.jpg",
+    "images": ["mayan_paths_1.jpg", "mayan_paths_2.jpg"],
+    "startDates": ["2024-06-10", "2024-07-05"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-88.5678, 20.6843],
+      "address": "Chichén Itzá",
+      "description": "Entrada principal de Chichén Itzá."
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-88.5678, 20.6843],
+        "address": "Chichén Itzá",
+        "description": "Pirámide de Kukulkán",
+        "day": 1
+      },
+      {
+        "type": "Point",
+        "coordinates": [-88.5672, 20.6840],
+        "address": "Cenote Sagrado",
+        "description": "Cenote Sagrado",
+        "day": 2
+      }
+    ],
+    "guides": []
+  },
+  {
+    "name": "La Ruta Zapoteca",
+    "slug": "ruta-zapoteca",
+    "duration": 4,
+    "maxGroupSize": 20,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 150,
+    "price": 1200,
+    "priceDiscount": 1000,
+    "summary": "Descubre la milenaria civilización zapoteca en Monte Albán.",
+    "description": "Descubre la milenaria civilización zapoteca en este recorrido por la zona arqueológica de Monte Albán. Camina por las antiguas terrazas y templos que fueron construidos en lo alto de una montaña y explora las tumbas decoradas con joyas y artefactos. Además, visita el cercano pueblo de Mitla, conocido como \"el lugar de los muertos\" y famoso por su arquitectura zapoteca.",
+    "imageCover": "zapotec_route_cover.jpg",
+    "images": ["zapotec_route_1.jpg", "zapotec_route_2.jpg"],
+    "startDates": ["2024-07-15", "2024-08-20"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-96.7473, 17.0433],
+      "address": "Monte Albán",
+      "description": "Entrada principal de Monte Albán."
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-96.7473, 17.0433],
+        "address": "Monte Albán",
+        "description": "Zona arqueológica de Monte Albán",
+        "day": 1
+      },
+      {
+        "type": "Point",
+        "coordinates": [-96.4004, 16.9165],
+        "address": "Mitla",
+        "description": "Pueblo de Mitla",
+        "day": 2
+      }
+    ],
+    "guides": []
+  },
+  {
+    "name": "El Legado Tolteca",
+    "slug": "legado-tolteca",
+    "duration": 3,
+    "maxGroupSize": 25,
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 100,
+    "price": 1100,
+    "priceDiscount": 900,
+    "summary": "Viaja al centro del poder tolteca en Tula.",
+    "description": "Viaja al centro del poder tolteca en Tula, donde podrás admirar las icónicas estatuas de los Atlantes de Tula, guerreros de piedra que se alzan imponentes. Aprende sobre la influencia de los toltecas en otras civilizaciones mesoamericanas mientras exploras este enigmático sitio arqueológico.",
+    "imageCover": "toltec_legacy_cover.jpg",
+    "images": ["toltec_legacy_1.jpg", "toltec_legacy_2.jpg"],
+    "startDates": ["2024-08-10", "2024-09-05"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-99.3333, 20.0555],
+      "address": "Tula",
+      "description": "Entrada principal de Tula."
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-99.3333, 20.0555],
+        "address": "Tula",
+        "description": "Zona arqueológica de Tula",
+        "day": 1
+      }
+    ],
+    "guides": []
+  },
+  {
+    "name": "Magia de Tajín",
+    "slug": "magia-de-tajin",
+    "duration": 4,
+    "maxGroupSize": 20,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 180,
+    "price": 1400,
+    "priceDiscount": 1200,
+    "summary": "Explora la enigmática ciudad prehispánica de El Tajín.",
+    "description": "Explora la enigmática ciudad prehispánica de El Tajín, hogar de la cultura totonaca. Este tour incluye la visita a la Pirámide de los Nichos, una estructura fascinante con más de 365 nichos simbólicos. Conéctate con las tradiciones de los totonacas a través de una presentación de los Voladores de Papantla, una ceremonia ritual que ha perdurado por siglos.",
+    "imageCover": "tajin_magic_cover.jpg",
+    "images": ["tajin_magic_1.jpg", "tajin_magic_2.jpg"],
+    "startDates": ["2024-09-01", "2024-10-10"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-97.3763, 20.4375],
+      "address": "El Tajín",
+      "description": "Pirámide de los Nichos, El Tajín."
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-97.3763, 20.4375],
+        "address": "El Tajín",
+        "description": "Pirámide de los Nichos",
+        "day": 1
+      }
+    ],
+    "guides": []
+  },
+  {
+    "name": "Tesoro de los Purépechas",
+    "slug": "tesoro-de-los-purepechas",
+    "duration": 4,
+    "maxGroupSize": 22,
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 140,
+    "price": 1300,
+    "priceDiscount": 1100,
+    "summary": "Adéntrate en el mundo de los purépechas en Tzintzuntzan.",
+    "description": "Adéntrate en el mundo de los purépechas en este tour por las ruinas de Tzintzuntzan, la capital de esta poderosa civilización. Camina entre las impresionantes yacatas, templos circulares únicos en la arquitectura mesoamericana. El tour también incluye una visita al Lago de Pátzcuaro, un sitio sagrado para los purépechas, y al místico Isla de Janitzio.",
+    "imageCover": "purepecha_treasure_cover.jpg",
+    "images": ["purepecha_treasure_1.jpg", "purepecha_treasure_2.jpg"],
+    "startDates": ["2024-10-05", "2024-11-10", "2024-12-01"],
+    "secretTour": false,
+    "startLocation": {
+      "type": "Point",
+      "coordinates": [-101.6464, 19.6196],
+      "address": "Tzintzuntzan, Michoacán, Mexico",
+      "description": "Ruinas de Tzintzuntzan"
+    },
+    "locations": [
+      {
+        "type": "Point",
+        "coordinates": [-101.6464, 19.6196],
+        "address": "Tzintzuntzan, Michoacán, Mexico",
+        "description": "Las Yacatas, templos circulares de Tzintzuntzan",
+        "day": 1
+      },
+      {
+        "type": "Point",
+        "coordinates": [-101.6191, 19.5146],
+        "address": "Lago de Pátzcuaro, Michoacán, Mexico",
+        "description": "Lago de Pátzcuaro y la Isla de Janitzio",
+        "day": 3
+      }
+    ],
+    "guides": []
+  }
+  
+]
