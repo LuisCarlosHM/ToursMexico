@@ -1,49 +1,26 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  link(rel='icon' href='./img/icon2.png' type='image/png')
-  link(rel='preconnect' href='https://fonts.googleapis.com')
-  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
-  link(href='https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap' rel='stylesheet')
-  link(href='https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap' rel='stylesheet')
-  link(rel='stylesheet' href='./css/styles.css')
-  script(src='./js/main.js' defer='')
-  title Tlahtolli
-#root
-  .preload
-    .preload__content
-      .preload__icon
-        #loading
-          #loading-center
-            #loading-center-absolute
-              #object_one.object
-              #object_two.object
-              #object_three.object
-              #object_four.object
-              #object_big.object
-      //
-        <div class="preload__text">
-        Cargando...
-        </div>
-  header.navbar
-    img(src='./img/icon2.png')
-    .menu
-      a.menu__item.link(href='/') Inicio
-      a.menu__item.link(href='#tours') Tours
-      a.menu__item.link(href='/login') Iniciar sesi&oacute;n
-  main.container.main
-    .main__text &quot;Caminos antiguos, experiencias eternas&quot;
-    a.main__button(href='#tours') Descubre nuestros tours
-  section#tours.container.section.tours
-    h2.section__title Explora los Tesoros de la Cultura Prehisp&aacute;nica
-    .flex_container
-      .cards
-        each tour in tours
-          .card
-            .card__img
-              img.card__img(src=`./img/${tour.imageCover}` alt=tour.name)
-            .card__text
-              h3.card__title= tour.name
-              p.card__description= tour.description
-              a.card__button(href=`/tour/${tour.slug}`) Reserva ahora
+extends base
+block content
+    header.navbar
+      img(src='./img/icon2.png')
+      .menu
+        a.menu__item.link(href='/') Inicio
+        a.menu__item.link(href='#tours') Tours
+        if user
+          a.menu__item.link(href='#' id="btn-close-session") Cerrar sesi&oacute;n
+        else
+          a.menu__item.link(href='/login') Iniciar sesi&oacute;n
+    main.container.main
+      .main__text &quot;Caminos antiguos, experiencias eternas&quot;
+      a.main__button(href='#tours') Descubre nuestros tours
+    section#tours.container.section.tours
+      h2.section__title Explora los Tesoros de la Cultura Prehisp&aacute;nica
+      .flex_container
+        .cards
+          each tour in tours
+            .card
+              .card__img
+                img.card__img(src=`./img/${tour.imageCover}` alt=tour.name)
+              .card__text
+                h3.card__title= tour.name
+                p.card__description= tour.description
+                a.card__button(href=`/tour/${tour.slug}`) Reserva ahora

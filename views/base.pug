@@ -11,15 +11,6 @@ head
   script(src='./js/main.js' defer='')
   title Tlahtolli
 .root
-  section.login
-    .login__image
-      img(src='./img/login.jpg' alt='icono')
-    .login__container
-      .login__form
-        h2.login__title Iniciar sesi&oacute;n
-        form.login__form(action='')
-          input.login__input(type='text' placeholder='Correo electrónico')
-          input.login__input(type='password' placeholder='Contraseña')
-          button.login__button Iniciar sesi&oacute;n
-        a.login__link(href='#') &iquest;Olvidaste tu contrase&ntilde;a?
-        a.login__link(href='/signup') &iquest;No tienes cuenta? Reg&iacute;strate
+  include preload
+  block content
+    
