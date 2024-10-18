@@ -7,10 +7,11 @@ block content
       .register__form
         h2.register__title Reg&iacute;strate
         form.register__form(action='')
-          input.register__input(type='text' placeholder='Nombre')
-          input.register__input(type='text' placeholder='Apellido')
-          input.register__input(type='text' placeholder='Correo electrónico')
-          input.register__input(type='password' placeholder='Contraseña')
-          input.register__input(type='password' placeholder='Confirmar contraseña')
+          input.register__input(type='text', name="first_name" id="first_name" placeholder='Nombre')
+          input.register__input(type='text' name="last_name"  id="last_name" placeholder='Apellido')
+          input.register__input(type='text' name="email" id="email" placeholder='Correo electrónico')
+          input.register__input(type='password' name="password" id="password" placeholder='Contraseña')
+          input.register__input(type='password' name="password_confirm" id="password_confirm" 
+          placeholder='Confirmar contraseña')
           button.register__button Registrarse
         a.register__link(href='/login') &iquest;Ya tienes cuenta? Inicia sesi&oacute;n
